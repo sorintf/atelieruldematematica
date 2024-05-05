@@ -1,74 +1,6 @@
 
 	<footer id="footer">
 		<div class="container">
-			<div class="footer-menus row">
-				<div class="menu">
-					<p class="menu-title">Academia AIEPS</p>
-					<ul class="nav">
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo $baseFunctions->buildUrl(array('f_about_us')); ?>">Despre noi</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo $baseFunctions->buildUrl(array('f_management')); ?>">Managementul Ariei Medico-Pharma</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo $baseFunctions->buildUrl(array('f_about_courses')); ?>">Despre cursuri</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo $baseFunctions->buildUrl(array('f_contact')); ?>">Contact</a>
-						</li>
-					</ul>
-				</div>
-
-				<div class="menu">
-					<p class="menu-title">Resurse</p>
-					<ul class="nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Cum funcționează</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Onboarding & accesability</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Success stories</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">News & Research</a>
-						</li>
-					</ul>
-				</div>
-
-				<div class="menu">
-					<p class="menu-title">Cursuri și Webinarii</p>
-					<ul class="nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Cursuri Farmaceutice</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Webinarii Farmaceutice</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Cursuri Medical</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Webinarii Medical</a>
-						</li>
-					</ul>
-				</div>
-
-				<div class="menu">
-					<p class="menu-title">My AIPES</p>
-					<ul class="nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#">AIEPS for Business</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Planuri și abonamente</a>
-						</li>
-					</ul>
-					<a href="#" class="btn btn-outline-transparent">Înscriere lectori</a>
-				</div>
-			</div>
 
 			<div class="social">
 				<ul class="nav">
@@ -95,25 +27,6 @@
 				</ul>
 			</div>
 
-			<div class="partners">
-				<p class="title">Parteneri AIEPS</p>
-
-				<div class="partners-list row">
-					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-pfizer.png' ?>" alt="Pfizer" class="img">
-					</div>
-					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-johnson-and-johnson.png' ?>" alt="Johnson&Johnson" class="img">
-					</div>
-					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-two-and-from.png' ?>" alt="Two&From" class="img">
-					</div>
-					<div class="partner">
-						<img src="<?php echo BASE_URL.'/images/assets/logo-white-stanford-university.png' ?>" alt="Standford University" class="img">
-					</div>
-				</div>
-			</div>
-
 			<div class="legal">
 				<ul class="nav">
 					<li class="nav-item <?php echo ($baseFunctions->view=='f_legal_terms')?'active':''; ?>">
@@ -131,7 +44,7 @@
 				</ul>
 			</div>
 
-			<div class="copy">&copy;AIEPS Academia <?php echo date("Y"); ?></div>
+			<div class="copy">&copy;Atelierul de Matematică <?php echo date("Y"); ?></div>
 		</div>
 	</footer>
 

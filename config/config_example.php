@@ -29,7 +29,7 @@ define("MJ_MANAGE_CONTACT", 10000); // contact list id (int)
 define("MJ_URL", "URLTOSOMEFILE"); // file that groups all the emails calls to MJ API
 
 
-define("BASE_URL", "https://www.base.twoandfrom.com"); // probabily better to do it some other way
+define("BASE_URL", "atelieruldematematica.com"); // probabily better to do it some other way
 
 define("FORMAT_DATE", "Y-m-d");
 define("FORMAT_DATE_RO_L", "d-m-Y H:i:s");

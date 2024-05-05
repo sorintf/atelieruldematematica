@@ -13,10 +13,10 @@ setlocale(LC_ALL, 'ro_RO.utf8');
 #strftime("%e %b %Y", strtotime("2019-12-05")); // how to use in php to local format
 
 define("DB_HOST", "localhost"); // usualy works with localhost
-define("DB_NAME", "twoandfr_aieps_full"); // easily created in phpmyadmin
-define("DB_USER", "twoandfr_aieps_mainusr"); // easily created in phpmyadmin, don't forget to add the user to the database with desired permissions
-define("DB_PASS", "Y_E{q-5zs9i3"); // as complex as possible
-define("DB_SECRET", "Am3mzXFFt"); // use this with AES_ENCRYPT/AES_DECRYPT on varbin collumns
+define("DB_NAME", "atelierul_de_matematica"); // easily created in phpmyadmin
+define("DB_USER", "euclid"); // easily created in phpmyadmin, don't forget to add the user to the database with desired permissions
+define("DB_PASS", "Py+ha80ra5!0f!5am0s"); // as complex as possible
+define("DB_SECRET", "a^2=b^2+c^2"); // use this with AES_ENCRYPT/AES_DECRYPT on varbin collumns
 
 define("COOKIE_RUNTIME", 1209600);
 // define("COOKIE_DOMAIN", ".yourdomain.com"); // set up your domain
@@ -27,10 +27,10 @@ define("COOKIE_SECRET_KEY", "IdNpXTMHLKUOSDSkhjda9831JKLHA89731");
 define("MJ_APIKEY_PUBLIC", "e4ff6ce5696f0af969ec687f2faec7bb");
 define("MJ_APIKEY_PRIVATE", "6c70928056b736e2b2e2a75f93288b20");
 define("MJ_MANAGE_CONTACT", 10374502);
-define("MJ_URL", "http://localhost/aieps/www/aiepsplatforma/send_emails.php");
+define("MJ_URL", "http://atelieruldematematica.com/send_emails.php");
 
-define("BASE_URL", "http://localhost/aieps/www/aiepsplatforma"); // probabily better to do it some other way
 define("PLATFORM_NAME", "AIEPS platforma"); // probabily better to do it some other way
+define("BASE_URL", "http://atelieruldematematica.com"); // probabily better to do it some other way
 define("USER_REGISTRATION", "auto");
 define("USER_AUTO_LOGIN", true);
 

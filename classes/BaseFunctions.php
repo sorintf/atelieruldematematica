@@ -1,12 +1,7 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
 <?php
 class BaseFunctions
 {
-    public $version = "f3l";
+    public $version = "f1r";
     protected $db_connection = NULL;
 
     public $ID = NULL;
@@ -2173,101 +2168,108 @@ class BaseFunctions
 
             case 'b_acc_general':
                 $result = "/contul-meu";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_dashboard':
                 $result = "/contul-meu";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_security':
                 $result = "/contul-meu/setari";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_password':
                 $result = "/contul-meu/setari-siguranta";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_password_request_reset':
                 $result = "/contul-meu/reseteaza-parola";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_password_set':
                 $result = "/contul-meu/seteaza-parola/".$params['trp'];
-                $result = "/incarca.php?view=".$view."&trp=".$params['trp'];
+                $result = "/index.php?view=".$view."&trp=".$params['trp'];
                 break;
             case 'b_acc_login':
                 $result = "/login";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_logout':
                 $result = "/logout";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_register':
                 $result = "/inregistrare";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_register_success':
                 $result = "/inregistrare-succes";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_register_confirm':
                 $result = "/inregistrare-confirmare/".$params['tve'];
-                $result = "/incarca.php?view=".$view."&tve=".$params['tve'];
+                $result = "/index.php?view=".$view."&tve=".$params['tve'];
                 break;
             case 'b_acc_recover':
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'b_acc_recover_confirm':
-                $result = "/incarca.php?view=".$view."&tra=".$params['tra'];
+                $result = "/index.php?view=".$view."&tra=".$params['tra'];
                 break;
             case 'b_acc_profil':
-                $result = "/incarca.php?view=b_acc_profil";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=b_acc_profil";
+                $result = "/index.php?view=".$view;
                 break;
 
 
             case 'f_404':
                 $result = "/404";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
 
             case 'f_about':
                 $result = ($lang=="ro")?"/despre":"/en/about";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'f_contact':
                 $result = ($lang=="ro")?"/contact":"/en/contact";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'f_policy_cf':
                 $result = ($lang=="ro")?"/politica-de-confidentialitate":"/en/privacy-policy";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'f_policy_ck':
                 $result = ($lang=="ro")?"/politica-de-cookies":"/en/cookies-policy";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'f_policy_tc':
                 $result = ($lang=="ro")?"/termeni-si-conditii":"/en/terms-and-conditions";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
             case 'f_services':
                 $result = ($lang=="ro")?"/servicii":"/en/services";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
 
             
             case 'f_index':
                 $result = ($lang=="ro")?"/":"/en/";
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
+                break;
+
+
+            
+            case 'f_test':
+                $result = BASE_URL."/index.php?view=".$view;
+                $result = ($lang=="ro")?"/test":"/en/test";
                 break;
             
             default:
                 $result = "/";
 
                 // during dev avoid redirecting to index
-                $result = "/incarca.php?view=".$view;
+                $result = "/index.php?view=".$view;
                 break;
         }
         return BASE_URL.$result;

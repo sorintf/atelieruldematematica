@@ -22,9 +22,9 @@
     <meta http-equiv="pragma" content="no-cache" />
 
     <!-- favicon -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png" />
@@ -62,7 +62,7 @@
 		<link href="/css/select2.min.css" rel="stylesheet">
 	<?php endif ?>
 
-	<link href="/css/main.css?v=<?php echo $baseFunctions->version; ?>" rel="stylesheet">
+	<link href="/css/style.css?v=<?php echo $baseFunctions->version; ?>" rel="stylesheet">
 </head>
 
 <body>

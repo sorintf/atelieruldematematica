@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.tff');
+}
+@font-face {
+    font-family: 'Playfair Display', serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.tff');
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-ThinItalic.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-Thin.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-LightItalic.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-Light.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-Italic.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-Regular.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-MediumItalic.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-Medium.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-BoldItalic.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-Bold.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-BlackItalic.tff');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url('../fonts/Roboto/Roboto-Black.tff');
+}
+
+
+:root {
+    --am-greyblue: #6F90A4;             /*color: var(--am-greyblue);*/
+    --am-greyblue-rgb: 111,144,164;      /*color: rgba(var(--am-greyblue), 1);*/
+    --am-blue: #0E52D7;
+    --am-blue-rgb: 14,82,215;
+    --am-dark: #00263C;
+    --am-dark-rgb: 0,38,60;
+    --am-pale-bg: #F9F9EE;
+    --am-pale-bg-rgb: 249,249,238;
+    --am-paleblue: #F5F9FF;
+    --am-paleblue-rgb: 245,249,255;
+    --am-linegray: #D1D3D5;
+    --am-linegray-rgb: 209,211,213;
+    --am-white: #FFFFFF;
+    --am-white-rgb: 255,255,255;
+    --am-darkcerulean: #0C4E74;
+    --am-darkcerulean-rgb: 12,78,116;
+    --am-prussianblue: #093148;
+    --am-prussianblue-rgb: 9,49,72;
+    --am-orange: #EB4C1A;        /*color: var(--am-orange);*/
+
+
+    --am-honeydew: #F0FFF0;
+    --am-ghost-white: #F0F0FF;
+    --am-white-smoke: #FFF0F0;
+    
+
+    --am-red: #F5F9FF;           
+    --am-fineline: #F5F9FF;      /*color: var(--am-fineline);*/
+    --am-green: #F5F9FF;         /*color: var(--am-green);*/
+
+    --am-font-body: 'Roboto', sans-serif;
+    --am-font-title: 'Playfair Display', serif;
+
+    --bs-border-color: var(--am-linegray);
+}
+
+
+a {
+    color: rgba(var(--am-dark-rgb), 1.0);
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(var(--am-dark-rgb), 0.8);
+}
+
+body{
+    font-family: var(--am-font-body);
+    background-color: var(--am-white);
+    color: var(--am-dark);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: var(--am-font-title);
+}
+
+
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+
+.subiect {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.honeydew {
+    background-color: var(--am-honeydew);
+}
+.ghost-white {
+    background-color: var(--am-ghost-white);
+}
+.white-smoke {
+    background-color: var(--am-white-smoke);
+}
+.table-transparent {
+    --bs-table-bg: transparent;
+}

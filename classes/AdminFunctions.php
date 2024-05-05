@@ -1,8 +1,3 @@
-<?php 
-	/**
-		* T&F
-	*/ 
-?>
 <?php
 class AdminFunctions extends BaseFunctions
 {
